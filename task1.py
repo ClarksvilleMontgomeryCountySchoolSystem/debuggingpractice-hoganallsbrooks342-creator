@@ -45,7 +45,7 @@ print(f"{greeting}")
 # --- Snippet 8 ---
 # This should display a temperature
 temperature = 72
-print(f"The temperature is {"temperture"} degrees")
+print(f"The temperature is {"temperature"} degrees")
 
 # --- Snippet 9 ---
 # This should display a team name
