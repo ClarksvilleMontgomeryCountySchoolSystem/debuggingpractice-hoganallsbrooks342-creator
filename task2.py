@@ -44,8 +44,8 @@ print("""
 # --- Candy Bars ---
 # Price: $1.89 each (float price, int quantity)
 candy_price = 1.89
-candy_quantity = candy_quantity_str
-print(candy_quantity_str)
+candy_quantity = float(candy_quantity_str)
+print(f"Candy Bar: {candy_quantity} x ${candy_price} = ${candy_total}
 
 candy_quantity = (int(candy_quantity_str))
 print(type(candy_quantity_str))
@@ -55,7 +55,7 @@ print(f"Candy Bars: {candy_quantity} x ${candy_price} = ${candy_total}")
 # --- Soda Bottles ---
 # Price: $2.49 each (float price, int quantity)
 soda_price = 2.49
-soda_quantity = soda_quantity_str
+soda_quantity = float(soda_quantity_str)
 soda_total = soda_price * soda_quantity
 print(f"Soda: {soda_quantity} x ${soda_price} = ${soda_total}")
 
